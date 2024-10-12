@@ -1,0 +1,16 @@
+variable "frontend1_instance_type" {}
+variable "frontend1_key_name" {}
+variable "frontend1_ami" {}
+variable "frontend1_az" {}
+variable "frontend2_instance_type" {}
+variable "frontend2_key_name" {}
+variable "frontend2_ami" {}
+variable "frontend2_az" {}
+variable "backend1_instance_type" {}
+variable "backend1_key_name" {}
+variable "backend1_ami" {}
+variable "backend1_az" {}
+variable "backend2_instance_type" {}
+variable "backend2_key_name" {}
+variable "backend2_ami" {}
+variable "backend2_az" {}
