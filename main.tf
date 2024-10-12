@@ -45,7 +45,7 @@ resource "aws_security_group" "frontend1" {
   }
 }
 
-# Security Group for Frontend 2
+# Security Group for Frontend 2#
 resource "aws_security_group" "frontend2" {
   name        = "frontend2-sg"
   vpc_id      = aws_vpc.main.id
@@ -213,7 +213,7 @@ resource "aws_instance" "backend1" {
   }
 }
 
-# Backend 2 Instance
+# Backend 2 Instance ####
 resource "aws_instance" "backend2" {
   ami                         = var.backend2_ami
   instance_type               = var.backend2_instance_type #"t2.micro"
