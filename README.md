@@ -13,4 +13,4 @@ Accessible to all. Uncomment to restrict access in sg for backend and database
 - Run Terraform plan -var-file="project.tfvars"
 - Run Terraform apply -var-file="project.tfvars"
 - Run telnet public_ip port to test port
-- Voilaa
+- Voilaa Complete!
