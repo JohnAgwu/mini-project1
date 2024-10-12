@@ -45,7 +45,7 @@ resource "aws_security_group" "frontend1" {
   }
 }
 
-# Security Group for Frontend 2
+# Security Group for Frontend 2#
 resource "aws_security_group" "frontend2" {
   name        = "frontend2-sg"
   vpc_id      = aws_vpc.main.id
